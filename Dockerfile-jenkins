@@ -1,0 +1,9 @@
+# to build image: docker build -f Dockerfile-jenkins -t "jenkins-phrases-project:1" .
+# to run container: docker run -d -p 8080:8080 --name jenkins-phrases-project -v jenkins_home:/var/jenkins_home jenkins-phrases-project:1
+FROM jenkins/jenkins:latest
+MAINTAINER nicolasverapalominos@gmail.com
+LABEL version=1.0
+LABEL description="Jenkins for phrases project"
+LABEL vendor="Nicolas"
+EXPOSE 8080
+VOLUME jenkins_home:/var/jenkins_home
