@@ -1,0 +1,30 @@
+[submodule "commons"]
+	path = commons
+	url = https://github.com/nicolasvp/commons.git
+[submodule "discovery-server"]
+	path = discovery-server
+	url = https://github.com/nicolasvp/discovery-server.git
+[submodule "config-server"]
+	path = config-server
+	url = https://github.com/nicolasvp/config-server.git
+[submodule "api-gateway"]
+	path = api-gateway
+	url = https://github.com/nicolasvp/api-gateway.git
+[submodule "phrases-admin-panel"]
+	path = phrases-admin-panel
+	url = https://github.com/nicolasvp/phrases-admin-panel.git
+[submodule "users"]
+	path = users
+	url = https://github.com/nicolasvp/users.git
+[submodule "phrases"]
+	path = phrases
+	url = https://github.com/nicolasvp/phrases.git
+[submodule "oauth-server"]
+	path = oauth-server
+	url = https://github.com/nicolasvp/oauth-server.git
+[submodule "phrases-config"]
+	path = phrases-config
+	url = https://github.com/nicolasvp/phrases-config.git
+[submodule "delivery"]
+	path = delivery
+	url = https://github.com/nicolasvp/delivery.git
